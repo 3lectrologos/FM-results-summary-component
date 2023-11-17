@@ -597,6 +597,10 @@ video {
   height: 32rem;
 }
 
+.h-\[22\.25rem\] {
+  height: 22.25rem;
+}
+
 .w-36 {
   width: 9rem;
 }
@@ -845,6 +849,10 @@ video {
 
   .sm\:h-\[12\.5rem\] {
     height: 12.5rem;
+  }
+
+  .sm\:h-\[32rem\] {
+    height: 32rem;
   }
 
   .sm\:w-1\/2 {
