@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <link href="output.css" rel="stylesheet">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+
+<body class="font-hanken bg-verylightblue">
+
+<div class="flex flex-col w-screen h-screen">
+  <div class="flex flex-col h-fit grow justify-center">
+    <div class="flex flex-row flex-wrap w-[46rem] h-fit mx-auto bg-white rounded-3xl">
+      <div class="flex flex-col gap-y-3 w-1/2 text-center bg-gradient-to-b from-lightslateblue to-lightroyalblue px-14 pb-14 pt-10 rounded-3xl">
+        <div class="text-lightlavender text-md font-bold mb-5">Your Result</div>
+        <div class="flex flex-col justify-center self-center w-[12.5rem] h-[12.5rem] rounded-full bg-gradient-to-b from-violetblue to-persianblue mb-4">
+          <div class="text-white text-xl font-extrabold -mt-2">76</div>
+          <div class="text-lightlavender/50 text-base font-bold -mt-4">of 100</div>
+        </div>
+        <div class="text-white text-lg font-bold">Great</div>
+        <div class="text-lightlavender text-base leading-tight font-medium">You scored higher than 65% of the people who have taken these tests.</div>
+      </div>
+
+      <div class="flex flex-col w-1/2 p-11">
+        <div class="text-darkgrayblue text-md font-bold mb-7">Summary</div>
+
+        <div class="flex flex-col gap-y-4 mb-10">
+          <div class="h-14 px-4 flex flex-row justify-between bg-lightred/5 rounded-xl text-base font-medium">
+            <div class="flex inline-block items-center">
+              <img class="inline-block mr-2.5 my-auto" src="assets/images/icon-reaction.svg" alt="Reaction icon" />
+              <span class="text-base text-lightred">Reaction</span>
+            </div>
+            <div class="flex inline-block items-center">
+              <span class="inline-block font-bold text-darkgrayblue">80 <span class="text-darkgrayblue/50"> / 100</span></span>
+            </div>
+          </div>
+
+          <div class="h-14 px-4 flex flex-row justify-between bg-orangey/5 rounded-xl text-base font-medium">
+            <div class="flex inline-block items-center">
+              <img class="inline-block mr-2.5 my-auto" src="assets/images/icon-memory.svg" alt="Reaction icon" />
+              <span class="text-base text-orangey">Memory</span>
+            </div>
+            <div class="flex inline-block items-center">
+              <span class="inline-block font-bold text-darkgrayblue">92 <span class="text-darkgrayblue/50"> / 100</span></span>
+            </div>
+          </div>
+
+          <div class="h-14 px-4 flex flex-row justify-between bg-greenteal/5 rounded-xl text-base font-medium">
+            <div class="flex inline-block items-center">
+              <img class="inline-block mr-2.5 my-auto" src="assets/images/icon-verbal.svg" alt="Reaction icon" />
+              <span class="text-base text-greenteal">Verbal</span>
+            </div>
+            <div class="flex inline-block items-center">
+              <span class="inline-block font-bold text-darkgrayblue">61 <span class="text-darkgrayblue/50"> / 100</span></span>
+            </div>
+          </div>
+
+          <div class="h-14 px-4 flex flex-row justify-between bg-cobalt/5 rounded-xl text-base font-medium">
+            <div class="flex inline-block items-center">
+              <img class="inline-block mr-2.5 my-auto" src="assets/images/icon-visual.svg" alt="Reaction icon" />
+              <span class="text-base text-cobalt">Visual</span>
+            </div>
+            <div class="flex inline-block items-center">
+              <span class="inline-block font-bold text-darkgrayblue">72 <span class="text-darkgrayblue/50"> / 100</span></span>
+            </div>
+          </div>
+        </div>
+
+        <button class="h-14 bg-darkgrayblue text-base text-white font-base rounded-full transition hover:bg-gradient-to-b from-lightslateblue to-lightroyalblue">Continue</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="attribution mx-auto">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Alkis Gotovos</a>.
+  </div>
+</div>
+
+</body>
+</html>
