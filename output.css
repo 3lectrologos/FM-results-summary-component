@@ -940,8 +940,19 @@ video {
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
+  .sm\:shadow-2xl {
+    --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+
   .sm\:shadow-lightroyalblue\/10 {
     --tw-shadow-color: hsl(241 81% 54% / 0.1);
+    --tw-shadow: var(--tw-shadow-colored);
+  }
+
+  .sm\:shadow-lightroyalblue\/20 {
+    --tw-shadow-color: hsl(241 81% 54% / 0.2);
     --tw-shadow: var(--tw-shadow-colored);
   }
 
