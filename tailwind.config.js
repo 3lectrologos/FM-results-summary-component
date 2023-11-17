@@ -21,9 +21,11 @@ module.exports = {
       darkgrayblue: 'hsl(224 30% 27%)'
     },
     fontSize: {
+      sm: '16px',
       base: '18px',
       md: '24px',
       lg: '32px',
+      plg: '56px',
       xl: '72px'
     },
     extend: {

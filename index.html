@@ -24,55 +24,55 @@
 
 <div class="flex flex-col w-screen h-screen">
   <div class="flex flex-col h-fit grow justify-center">
-    <div class="flex flex-row flex-wrap w-[46rem] h-fit mx-auto bg-white rounded-3xl">
-      <div class="flex flex-col gap-y-3 w-1/2 text-center bg-gradient-to-b from-lightslateblue to-lightroyalblue px-14 pb-14 pt-10 rounded-3xl">
-        <div class="text-lightlavender text-md font-bold mb-5">Your Result</div>
-        <div class="flex flex-col justify-center self-center w-[12.5rem] h-[12.5rem] rounded-full bg-gradient-to-b from-violetblue to-persianblue mb-4">
-          <div class="text-white text-xl font-extrabold -mt-2">76</div>
-          <div class="text-lightlavender/50 text-base font-bold -mt-4">of 100</div>
+    <div class="flex flex-col flex-wrap w-full h-fit mx-auto bg-white sm:flex-row sm:max-w-[46rem] sm:rounded-3xl">
+      <div class="flex flex-col gap-y-1 text-center bg-gradient-to-b from-lightslateblue to-lightroyalblue px-14 pb-9 pt-6 rounded-b-3xl sm:w-1/2 sm:rounded-t-3xl sm:gap-y-3 sm:pt-10 sm:pb-14">
+        <div class="text-lightlavender text-base font-bold mb-5 sm:text-md">Your Result</div>
+        <div class="flex flex-col justify-center self-center w-36 h-36 rounded-full bg-gradient-to-b from-violetblue to-persianblue mb-4 sm:w-[12.5rem] sm:h-[12.5rem]">
+          <div class="text-white text-plg font-extrabold sm:text-xl sm:-mt-2">76</div>
+          <div class="text-lightlavender/50 text-sm font-bold -mt-2 sm:-mt-4 sm:text-base">of 100</div>
         </div>
-        <div class="text-white text-lg font-bold">Great</div>
-        <div class="text-lightlavender text-base leading-tight font-medium">You scored higher than 65% of the people who have taken these tests.</div>
+        <div class="text-white text-md pb-1 font-bold sm:text-lg">Great</div>
+        <div class="text-lightlavender text-sm leading-tight font-medium sm:text-base">You scored higher than 65% of the people who have taken these tests.</div>
       </div>
 
-      <div class="flex flex-col w-1/2 p-11">
-        <div class="text-darkgrayblue text-md font-bold mb-7">Summary</div>
+      <div class="flex flex-col p-7 sm:w-1/2 sm:p-11">
+        <div class="text-darkgrayblue text-base font-bold mb-5 sm:text-md sm:mb-7">Summary</div>
 
-        <div class="flex flex-col gap-y-4 mb-10">
-          <div class="h-14 px-4 flex flex-row justify-between bg-lightred/5 rounded-xl text-base font-medium">
+        <div class="flex flex-col gap-y-4 mb-7 sm:mb-10">
+          <div class="h-14 px-4 flex flex-row justify-between bg-lightred/5 rounded-xl text-sm font-medium sm:text-base">
             <div class="flex inline-block items-center">
               <img class="inline-block mr-2.5 my-auto" src="assets/images/icon-reaction.svg" alt="Reaction icon" />
-              <span class="text-base text-lightred">Reaction</span>
+              <span class="text-lightred">Reaction</span>
             </div>
             <div class="flex inline-block items-center">
               <span class="inline-block font-bold text-darkgrayblue">80 <span class="text-darkgrayblue/50"> / 100</span></span>
             </div>
           </div>
 
-          <div class="h-14 px-4 flex flex-row justify-between bg-orangey/5 rounded-xl text-base font-medium">
+          <div class="h-14 px-4 flex flex-row justify-between bg-orangey/5 rounded-xl text-sm font-medium sm:text-base">
             <div class="flex inline-block items-center">
               <img class="inline-block mr-2.5 my-auto" src="assets/images/icon-memory.svg" alt="Reaction icon" />
-              <span class="text-base text-orangey">Memory</span>
+              <span class="text-orangey">Memory</span>
             </div>
             <div class="flex inline-block items-center">
               <span class="inline-block font-bold text-darkgrayblue">92 <span class="text-darkgrayblue/50"> / 100</span></span>
             </div>
           </div>
 
-          <div class="h-14 px-4 flex flex-row justify-between bg-greenteal/5 rounded-xl text-base font-medium">
+          <div class="h-14 px-4 flex flex-row justify-between bg-greenteal/5 rounded-xl text-sm font-medium sm:text-base">
             <div class="flex inline-block items-center">
               <img class="inline-block mr-2.5 my-auto" src="assets/images/icon-verbal.svg" alt="Reaction icon" />
-              <span class="text-base text-greenteal">Verbal</span>
+              <span class="text-greenteal">Verbal</span>
             </div>
             <div class="flex inline-block items-center">
               <span class="inline-block font-bold text-darkgrayblue">61 <span class="text-darkgrayblue/50"> / 100</span></span>
             </div>
           </div>
 
-          <div class="h-14 px-4 flex flex-row justify-between bg-cobalt/5 rounded-xl text-base font-medium">
+          <div class="h-14 px-4 flex flex-row justify-between bg-cobalt/5 rounded-xl text-sm font-medium sm:text-base">
             <div class="flex inline-block items-center">
               <img class="inline-block mr-2.5 my-auto" src="assets/images/icon-visual.svg" alt="Reaction icon" />
-              <span class="text-base text-cobalt">Visual</span>
+              <span class="text-cobalt">Visual</span>
             </div>
             <div class="flex inline-block items-center">
               <span class="inline-block font-bold text-darkgrayblue">72 <span class="text-darkgrayblue/50"> / 100</span></span>
@@ -80,7 +80,7 @@
           </div>
         </div>
 
-        <button class="h-14 bg-darkgrayblue text-base text-white font-base rounded-full transition hover:bg-gradient-to-b from-lightslateblue to-lightroyalblue">Continue</button>
+        <button class="h-14 bg-darkgrayblue text-base text-white font-base rounded-full sm:transition sm:hover:bg-gradient-to-b sm:from-lightslateblue sm:to-lightroyalblue">Continue</button>
       </div>
     </div>
   </div>
