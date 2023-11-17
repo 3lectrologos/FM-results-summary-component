@@ -548,14 +548,6 @@ video {
   margin-top: -0.5rem;
 }
 
-.-mt-4 {
-  margin-top: -1rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -576,10 +568,6 @@ video {
   margin-right: 0.625rem;
 }
 
-.mb-6 {
-  margin-bottom: 1.5rem;
-}
-
 .inline-block {
   display: inline-block;
 }
@@ -592,8 +580,8 @@ video {
   height: 3.5rem;
 }
 
-.h-\[12\.5rem\] {
-  height: 12.5rem;
+.h-36 {
+  height: 9rem;
 }
 
 .h-fit {
@@ -605,12 +593,12 @@ video {
   height: 100vh;
 }
 
-.h-36 {
-  height: 9rem;
+.h-\[32rem\] {
+  height: 32rem;
 }
 
-.w-\[12\.5rem\] {
-  width: 12.5rem;
+.w-36 {
+  width: 9rem;
 }
 
 .w-full {
@@ -619,10 +607,6 @@ video {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-36 {
-  width: 9rem;
 }
 
 .grow {
@@ -653,24 +637,16 @@ video {
   justify-content: space-between;
 }
 
-.gap-y-3 {
-  row-gap: 0.75rem;
+.gap-y-1 {
+  row-gap: 0.25rem;
 }
 
 .gap-y-4 {
   row-gap: 1rem;
 }
 
-.gap-y-1 {
-  row-gap: 0.25rem;
-}
-
 .self-center {
   align-self: center;
-}
-
-.rounded-3xl {
-  border-radius: 1.5rem;
 }
 
 .rounded-full {
@@ -741,14 +717,6 @@ video {
   --tw-gradient-to: hsla(241 72% 46% / 0) var(--tw-gradient-to-position);
 }
 
-.p-11 {
-  padding: 2.75rem;
-}
-
-.p-6 {
-  padding: 1.5rem;
-}
-
 .p-7 {
   padding: 1.75rem;
 }
@@ -763,32 +731,16 @@ video {
   padding-right: 1rem;
 }
 
-.pb-14 {
-  padding-bottom: 3.5rem;
-}
-
-.pt-10 {
-  padding-top: 2.5rem;
-}
-
-.pt-4 {
-  padding-top: 1rem;
-}
-
-.pt-6 {
-  padding-top: 1.5rem;
-}
-
-.pb-8 {
-  padding-bottom: 2rem;
-}
-
 .pb-1 {
   padding-bottom: 0.25rem;
 }
 
 .pb-9 {
   padding-bottom: 2.25rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
 }
 
 .text-center {
@@ -803,16 +755,8 @@ video {
   font-size: 18px;
 }
 
-.text-lg {
-  font-size: 32px;
-}
-
 .text-md {
   font-size: 24px;
-}
-
-.text-xl {
-  font-size: 72px;
 }
 
 .text-plg {
@@ -882,33 +826,21 @@ video {
   color: hsl(0 0% 100% / var(--tw-text-opacity));
 }
 
-.transition {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.hover\:bg-gradient-to-b:hover {
-  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
-}
-
 @media (min-width: 640px) {
-  .sm\:-mt-4 {
-    margin-top: -1rem;
-  }
-
   .sm\:-mt-2 {
     margin-top: -0.5rem;
   }
 
-  .sm\:mb-7 {
-    margin-bottom: 1.75rem;
+  .sm\:-mt-4 {
+    margin-top: -1rem;
   }
 
   .sm\:mb-10 {
     margin-bottom: 2.5rem;
+  }
+
+  .sm\:mb-7 {
+    margin-bottom: 1.75rem;
   }
 
   .sm\:h-\[12\.5rem\] {
@@ -917,10 +849,6 @@ video {
 
   .sm\:w-1\/2 {
     width: 50%;
-  }
-
-  .sm\:w-\[46rem\] {
-    width: 46rem;
   }
 
   .sm\:w-\[12\.5rem\] {
@@ -966,20 +894,28 @@ video {
     padding: 2.75rem;
   }
 
+  .sm\:p-10 {
+    padding: 2.5rem;
+  }
+
+  .sm\:pb-16 {
+    padding-bottom: 4rem;
+  }
+
   .sm\:pt-10 {
     padding-top: 2.5rem;
+  }
+
+  .sm\:pb-\[3\.75rem\] {
+    padding-bottom: 3.75rem;
   }
 
   .sm\:pb-14 {
     padding-bottom: 3.5rem;
   }
 
-  .sm\:text-xl {
-    font-size: 72px;
-  }
-
-  .sm\:text-md {
-    font-size: 24px;
+  .sm\:pb-0 {
+    padding-bottom: 0px;
   }
 
   .sm\:text-base {
@@ -990,10 +926,12 @@ video {
     font-size: 32px;
   }
 
-  .sm\:shadow-lg {
-    --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  .sm\:text-md {
+    font-size: 24px;
+  }
+
+  .sm\:text-xl {
+    font-size: 72px;
   }
 
   .sm\:shadow-xl {
@@ -1004,11 +942,6 @@ video {
 
   .sm\:shadow-lightroyalblue\/10 {
     --tw-shadow-color: hsl(241 81% 54% / 0.1);
-    --tw-shadow: var(--tw-shadow-colored);
-  }
-
-  .sm\:shadow-lightroyalblue {
-    --tw-shadow-color: hsl(241 81% 54%);
     --tw-shadow: var(--tw-shadow-colored);
   }
 
